@@ -16,7 +16,7 @@ int[,,] InitMatrix()
         {
             for (int k = 0; k < array.GetLength(2); k++)
             {
-                array[i, j, k] = rnd.Next(1, 10);
+                array[i, j, k] = rnd.Next(10, 100);
             }
         }
     }
